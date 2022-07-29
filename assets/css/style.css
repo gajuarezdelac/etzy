@@ -136,13 +136,14 @@ body { background: var(--white); }
 }
 
 .btn-primary {
-  background: var(--bright-navy-blue);
-  border-color: var(--bright-navy-blue);
+  background: rgb(225, 149, 55);
+    border-color: rgb(219, 142, 70);
 }
 
 .btn-primary:is(:hover, :focus) {
-  background: var(--yale-blue);
-  border-color: var(--yale-blue);
+  
+  background: rgb(194, 82, 3);
+    border-color: rgb(210, 104, 5);
 }
 
 .btn-secondary { border-color: var(--white); }
@@ -405,7 +406,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .tour-search {
-  background: var(--bright-navy-blue);
+  background: hsl(28, 86%, 83%);
   padding-block: var(--section-padding);
 }
 
@@ -1494,12 +1495,14 @@ address {
   }
 
   .fet-two-element {
+    align-items: center;
     width: 100%;
     flex-direction: column;
   }
 
   .fet-element {
     width: 100%;
+    align-items: center;
     flex-direction: column;
   }
 
@@ -1520,6 +1523,46 @@ address {
     margin: 10px 0px 30px 0px;
     flex-direction: column;
     text-align: center;
+  }
+
+  .title-fees {
+    text-align: center;
+  }
+
+  .content-features-element {
+    flex-direction: column;
+  }
+
+  .element-f {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .f-icon {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .f-text {
+    width: 100%;
+  }
+
+  .section-subtitle 
+  {
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+
+  .price-img {
+    margin: 0 auto;
+  }
+
+  .price-text{
+    width: 100%;
   }
 
 
@@ -1580,6 +1623,7 @@ address {
 }
 
 .f-text {
+   margin: 10px auto 5px auto;
    width: 85%;
 }
 
@@ -1689,7 +1733,7 @@ font-size: 14px;
 }
 
 .price-element {
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
 }
@@ -1699,7 +1743,8 @@ font-size: 14px;
 }
 
 .price-text {
-  width: 80%;
+  padding: 20px;
+  width: 100%;
 }
 
 .price-element .price-img img {
@@ -1743,6 +1788,7 @@ font-size: 14px;
 }
 
 .fet-text{
+  font-size: 15px;
   width: 75%;
 }
 
@@ -1752,6 +1798,10 @@ font-size: 14px;
   width: 70%;
   margin: 0px auto 40px auto;
   text-align: center;
+}
+
+.title-help h3{
+  font-size: 2.0em;
 }
 
 .faq-content {
@@ -1795,7 +1845,7 @@ font-size: 14px;
 
 .help-img {
   padding: 20px;
-  background-color: #f58240;
+  background-color: rgb(240, 157, 108);
   border-radius: 20px;
   margin: 20px auto;
 }
