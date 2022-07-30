@@ -1391,6 +1391,13 @@ address {
   margin: 10px 0px 0px 0px;
   text-align: center;
 }
+.img-about-t h2{
+  margin: 0px auto 5px auto;
+}
+
+.img-about-t p{
+  font-size: 14px;
+}
 
 .img-selling {
   display: flex;
