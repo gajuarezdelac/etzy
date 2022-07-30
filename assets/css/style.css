@@ -1573,6 +1573,16 @@ address {
     width: 100%;
   }
 
+  .faq-content {    
+    flex-direction: column;
+  }
+
+  .faq-group {
+    width: 100% !important;
+    flex-direction: column;
+  }
+
+
 
 
 }
